@@ -44,7 +44,7 @@
 ;;; Code:
 
 (deftheme twilight-bright
-  "A Pastel Coloured Theme")
+  "A soothing dark-on-light theme.")
 
 (let ((background "#FFFFFF")
       (foreground "#505050")
