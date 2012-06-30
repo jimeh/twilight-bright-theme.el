@@ -3,7 +3,6 @@
 ;; Copyright (c) 2012 Jim Myhrberg.
 ;;
 ;; Author: Jim Myhrberg <contact@jimeh.me>
-;; Maintainer: Jim Myhrberg <contact@jimeh.me>
 ;; Version: 0.1.0
 ;; Keywords: themes
 ;; URL: https://github.com/jimeh/twilight-bright-theme.el
