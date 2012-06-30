@@ -88,8 +88,8 @@
    `(whitespace-trailing ((t (:foreground ,red-1bg :background ,red-1))))
 
    ;; flyspell-mode
-   `(flyspell-incorrect ((t (:foreground ,red-1 :underline ,red-1))))
-   `(flyspell-duplicate ((t (:foreground ,red-1 :underline ,red-1))))
+   `(flyspell-incorrect ((t (:underline ,red-1))))
+   `(flyspell-duplicate ((t (:underline ,red-1))))
 
    ;; magit
    `(magit-diff-add ((t (:foreground ,green-1 :background ,green-1bg))))
