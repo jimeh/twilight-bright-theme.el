@@ -58,6 +58,7 @@
       (gray-4 "#c8c8c8")
       (gray-5 "#efefef")
       (red-1 "#d15120") (red-1bg "#fdf2ed")
+      (red-2 "#b23f1e") (red-2bg "#fcf3f1")
       (brown-1 "#9f621d") (brown-1bg "#fdf2ed")
       (orange-1 "#cf7900") (orange-1bg "#fdf9f2")
       (yellow-1 "#d2ad00") (yellow-1bg "#faf7e7")
@@ -90,7 +91,7 @@
    `(font-lock-negation-char-face ((t (:foreground ,yellow-1 :background ,yellow-1bg))))
    `(font-lock-preprocessor-face ((t (:foreground ,orange-1 :background ,orange-1bg))))
    `(font-lock-string-face ((t (:foreground ,green-1 :background ,green-1bg))))
-   `(font-lock-type-face ((t (:foreground ,red-1 :background ,red-1bg :bold nil))))
+   `(font-lock-type-face ((t (:foreground ,red-2 :background ,red-2bg :bold nil))))
    `(font-lock-variable-name-face ((t (:foreground ,blue-1 :background ,blue-1bg))))
    `(font-lock-warning-face ((t (:foreground ,red-1 :background ,red-1bg))))
 
