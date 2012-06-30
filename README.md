@@ -27,3 +27,10 @@ Mac OS X Cocoa:
 ### Pre-Emacs 24
 
 Not supported, sorry.
+
+## Alternative Version
+
+My [Twilight Anti-Bright][anti] theme is a light-on-dark theme inspired by Twilight
+Bright.
+
+[anti]: https://github.com/jimeh/twilight-anti-bright-theme.el
