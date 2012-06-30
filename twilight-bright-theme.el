@@ -36,12 +36,12 @@
 
    ;; Basics
    `(default ((t (:background ,background :foreground ,foreground))))
-   `(region ((t (:background ,selection))))
    `(cursor ((t (:background ,cursor))))
+   `(region ((t (:background ,selection))))
    `(highlight ((t (:foreground ,blue-2 :background ,blue-2bg))))
+   `(hl-line ((t (:background ,hl-line))))
    `(minibuffer-prompt ((t (:foreground ,orange-1 :background ,orange-1bg))))
    `(escape-glyph ((t (:foreground ,purple-1 :background , purple-1bg))))
-   `(hl-line ((t (:background ,hl-line))))
 
    ;; Font-lock stuff
    `(font-lock-builtin-face ((t (:foreground ,yellow-1 :background ,yellow-1bg))))
