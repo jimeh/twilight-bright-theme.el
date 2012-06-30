@@ -102,9 +102,9 @@
 
    ;; ECB
    `(ecb-default-general-face ((t (:foreground ,gray-1 :background ,gray-1bg))))
-   `(ecb-default-highlight-face ((t (:foreground ,red-1 :background ,red-1bg))))
+   `(ecb-default-highlight-face ((t (:foreground ,purple-1 :background ,purple-1bg))))
    `(ecb-method-face ((t (:foreground ,red-1 :background ,red-1bg))))
-   `(ecb-tag-header-face ((t (:foreground ,blue-2 :background ,blue-2bg))))
+   `(ecb-tag-header-face ((t (:background ,blue-2bg))))
 
    ;; org-mode
    `(org-date ((t (:foreground ,purple-1 :background ,purple-1bg))))
