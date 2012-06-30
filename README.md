@@ -5,6 +5,14 @@ A Emacs port of the TextMate theme by the same name by
 
 [pichfl]: http://einserver.de/goodies
 
+## Preview
+
+Mac OS X Cocoa:
+
+<div style="text-align: center">
+  <img src="https://github.com/jimeh/twilight-bright-theme.el/raw/master/preview/gui.png" alt="preview" />
+</div>
+
 ## Installation & Usage
 
 ### Emacs 24
