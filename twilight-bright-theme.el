@@ -11,7 +11,7 @@
   "A Pastel Coloured Theme")
 
 (let ((background "#FFFFFF")
-      (foreground "#404040")
+      (foreground "#505050")
       (selection "#c7e1f2")
       (hl-line "#f5f5f5")
       (cursor "#b4b4b4")
