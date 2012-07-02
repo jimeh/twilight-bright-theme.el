@@ -33,4 +33,4 @@ Not supported, sorry.
 My [Twilight Anti-Bright][anti] theme is a light-on-dark theme inspired by Twilight
 Bright.
 
-[anti]: https://github.com/jimeh/twilight-anti-bright-theme.el
+[anti]: https://github.com/jimeh/twilight-anti-bright-theme
