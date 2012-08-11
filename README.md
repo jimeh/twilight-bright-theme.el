@@ -17,6 +17,11 @@ Mac OS X Cocoa:
 
 ### Emacs 24
 
+If you're using [MELPA][] there's a `twilight-bright-theme` package
+available. Otherwise follow these instructions:
+
+[melpa]: http://melpa.milkbox.net/
+
 1. Add the `twilight-bright-theme` directory to your Emacs `load-path`
    and `custom-theme-load-path`.
 2. Add one of the following to your Emacs init file:
