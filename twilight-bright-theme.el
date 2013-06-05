@@ -137,7 +137,7 @@
    `(highlight-indentation-current-column-face ((t (:background ,gray-5))))
 
    ;; ECB
-   `(ecb-default-general-face ((t (:foreground ,gray-1 :background ,gray-1bg))))
+   `(ecb-default-general-face ((t (:foreground ,foreground :background ,gray-1bg))))
    `(ecb-default-highlight-face ((t (:foreground ,purple-1 :background ,purple-1bg))))
    `(ecb-method-face ((t (:foreground ,red-1 :background ,red-1bg))))
    `(ecb-tag-header-face ((t (:background ,blue-2bg))))
