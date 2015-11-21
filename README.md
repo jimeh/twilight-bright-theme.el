@@ -20,7 +20,7 @@ Mac OS X Cocoa:
 If you're using [MELPA][] there's a `twilight-bright-theme` package
 available. Otherwise follow these instructions:
 
-[melpa]: http://melpa.milkbox.net/
+[melpa]: https://melpa.org/
 
 1. Add the `twilight-bright-theme` directory to your Emacs `load-path`
    and `custom-theme-load-path`.
