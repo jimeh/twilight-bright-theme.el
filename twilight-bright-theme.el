@@ -50,7 +50,7 @@
       (selection "#c7e1f2")
       (hl-line "#f5f5f5")
       (cursor "#b4b4b4")
-
+      
       (gray-1 "#a49da5") (gray-1bg "#f7f7f7")
       (gray-2 "#d9d9d9")
       (gray-3 "#b3adb4") (gray-3bg "#eaeaea")
@@ -64,11 +64,22 @@
       (green-1 "#5f9411") (green-1bg "#eff8e9")
       (blue-1 "#6b82a7") (blue-1bg "#f1f4f8")
       (blue-2 "#417598") (blue-2bg "#e3f4ff")
-      (purple-1 "#a66bab") (purple-1bg "#f8f1f8")
-      )
-
+      (purple-1 "#a66bab") (purple-1bg "#f8f1f8"))
+  
   (custom-theme-set-faces
    'twilight-bright
+
+   ;; ansi-term
+   `(term-color-black ((t :foreground ,background :background ,background)))
+   `(term-color-red ((t :foreground ,red-1 :background ,red-1)))
+   `(term-color-green ((t :foreground ,green-1 :background ,green-1)))
+   `(term-color-yellow ((t :foreground ,yellow-1 :background ,yellow-1)))
+   `(term-color-blue ((t :foreground ,blue-1 :background ,blue-1)))
+   `(term-color-magenta ((t :foreground ,purple-1 :background ,purple-1)))
+   `(term-color-cyan ((t :foreground ,blue-1 :background ,blue-1)))
+   `(term-color-white ((t :foreground ,foreground :background ,foreground)))
+   '(term-default-fg-color ((t (:inherit term-color-white))))
+   '(term-default-bg-color ((t (:inherit term-color-black))))
 
    ;; Basics
    `(default ((t (:background ,background :foreground ,foreground))))
@@ -160,9 +171,6 @@
    `(ansi-color-names-vector
      ;; black, red, green, yellow, blue, magenta, cyan, white
      [,background ,red-1 ,green-1 ,yellow-1 ,blue-1 ,purple-1 ,blue-1 ,foreground])
-   `(ansi-term-color-vector
-     ;; black, red, green, yellow, blue, magenta, cyan, white
-     [unspecified ,background ,red-1 ,green-1 ,yellow-1 ,blue-1 ,purple-1 ,blue-1 ,foreground])
    )
   )
 
